@@ -34,3 +34,33 @@ Coursework:  the coursework will allow students to demonstrate their knowledge a
 Exam: a written exam (2 h) will test the student’s knowledge and understanding as elaborated under the learning outcomes. (LO 1, 2, 3, 5)
 
 Students will be provided with reassessment opportunities in line with University regulations.
+
+ 
+
+Assessment Details for Academic Year 2019/0.
+Code	Type	Title	Assessment duration (NOT EXAM)	Assessment word count	Exam duration (Hours)	Weight	Qualifying Mark
+CMT106_19 	Examination - Autumn Semester 	High Performance Computing 	 	 	 	70 	 
+CMT106_19 	Practical-Based Assessment 	Logbook of HPC exercises 	 	 	 	30 	 
+Syllabus content:
+Motivation for parallelism; uses of parallel computers; types of parallelism; data decomposition.
+Classification of parallel computers and Flynn’s taxonomy.
+SPMD programs; shared and distributed memory.
+Interconnection networks and network metrics.
+Non-determinacy; load imbalance; communication overhead.
+Amdahl’s Law; scalability and parallel efficiency.
+Introduction to OpenMP and message passing with MPI.
+GPUs and programming in CUDA.
+More advanced examples of parallel programming drawn from the following:
+  1. Vibrating string problem.
+  2. Laplace’s equation.
+  3. Molecular dynamics.
+  4. Cellular automata.
+  5. Matrix multiplication.
+  6. Sorting.
+
+Essential Reading and Resource List:
+Please see Background Reading List for an indicative list.
+
+Background Reading and Resource List:
+Parallel Programming with MPI, Peter S Pacheco, Morgan Kaufmann.
+Programming Massively Parallel Processors – A Hands on Approach, David B. Kirk and Wen-mei W. Hwu, (2017)
