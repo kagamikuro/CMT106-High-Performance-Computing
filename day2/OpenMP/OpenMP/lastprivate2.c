@@ -1,0 +1,12 @@
+#include <omp.h>
+#include <stdio.h>
+main () { 
+    int i = 10;
+#pragma omp parallel num_threads(4) 
+{
+    int x = 1;
+    #pragma omp for lastprivate(i)
+    for (i=0;i<100;i++) x++;
+}
+    printf("i = %d\n",i);
+} 
