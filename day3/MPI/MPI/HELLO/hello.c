@@ -9,8 +9,11 @@ int main (int argc, char *argv[])
    MPI_Init (&argc, &argv);
 
    MPI_Comm_size (MPI_COMM_WORLD, &n);
-
+   
    MPI_Comm_rank (MPI_COMM_WORLD, &rank);
+   
+   if(rank ==1 ||rank == 2 )
+       printf("mpi comm size is %d\n",n);
 
    if (rank==0) {  /* Process 0 will output data */
       printf ("Hello from process %3d\n", rank);
